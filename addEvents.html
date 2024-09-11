@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EventEarth - Ajouter un évènement</title>
+</head>
+<body>
+  <header>
+    <img alt="logo of EventEarth" />
+    <nav>
+      <a href="index.html">Acceuil</a>
+      <a href="events.html">Les évènements</a>
+      <a href="addEvents.html">Ajouter un évènement</a>
+      <a href="contact.html">Nous contacter</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Ajouter un évènement</h1>
+    <form>
+      <label for="title">Titre</label>
+      <input id="title" placeholder="titre de l'évènement" />
+
+      <label for="description">Description</label>
+      <input id="description" placeholder="decrire l'évènement" ></input>
+
+      <label for="image">Image</label>
+      <input id="image" type="file" accept="image/png, image/jpeg" />
+
+      <label for="price">Prix 1 personne</label>
+      <input id="price" type="number" placeholder="0"/>
+
+      <label for="price2">Prix 2 personnes</label>
+      <input id="price2" type="number" placeholder="0" />
+
+      <label for="price3">Prix 3-4 personne</label>
+      <input id="price3" type="number" placeholder="0" />
+
+      <button type="submit">Créer l'évènement</button>
+      <button type="reset">Annuler</button>
+    </form>
+  </main>
+
+  <footer>
+    <nav>
+      <a href="#">Mentions légales</a>
+      <a href="#">Conditions générales d'utilisation</a>
+    </nav>
+  </footer>
+</body>
+</html>
